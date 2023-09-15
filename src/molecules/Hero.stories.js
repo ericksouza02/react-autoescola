@@ -7,7 +7,7 @@ export default {
 
 export const usage = () => (
 
-    <Hero image={CardImage} title='Ganhe sua liberdade para ir e vir'>
+    <Hero image={CardImage}>
         <ul>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ipsam!</li>
             <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, reprehenderit!</li>
