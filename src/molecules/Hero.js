@@ -3,12 +3,19 @@ import styled, {css} from "styled-components";
 import {breakAt, BreakPointSizes} from '../styles/BreakPointSize'
 import PropTypes from 'prop-types' 
 
+import Heading from "../atoms/Heading";
+
 const Root = styled.div`
     body.sb-show-main.sb-main-padded{
     padding: 0
     }
     padding: 100px 0;
     width: 100%;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 40px;
+    }
+
     p,li {
         font-size: 20px;
         font-weight: 300;
@@ -49,25 +56,22 @@ const Container = styled.div`
     }
 `
 
-const Hero = ({image, title, children}) => (
+const Hero = ({image, children}) => (
 
-    <Root image={image} title={title}>
+    <Root image={image}>
         <Container>
-            <h1>{title}</h1>
             {children}
         </Container>
     </Root>
 )
 
 Hero.propTypes = {
-    image: PropTypes.node,
-    title: PropTypes.string,
+    image: PropTypes.string,
     children: PropTypes.node
 }
 
 Hero.defaultProps = {
     image: '',
-    title: 'Digite um texto',
     children: ''
 }
 

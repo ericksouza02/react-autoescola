@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         font-size: 100%;
-        color: #fff;
+        
         box-sizing: border-box;
     }
 
@@ -20,8 +20,24 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        color: #fff;
         margin: 0;
         padding: 0;
+    }
+
+    h1, 
+    h2, 
+    h3, 
+    h4, 
+    h5,
+    h6 {
+        line-height: 1.3;
+        font-weight: 700;
+        letter-spacing: 2px;
+
+        strong{
+            color: #DFA400;
+        }
     }
 `
 
