@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`match snapshot component Heading 1`] = `[Function]`;
+exports[`match snapshot component Heading 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-beyTiQ dxWuYG"
+  />
+</DocumentFragment>
+`;

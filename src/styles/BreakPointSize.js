@@ -1,5 +1,3 @@
-
-
 export const BreakPointSizes = {
     sm: 576,
     md: 768,

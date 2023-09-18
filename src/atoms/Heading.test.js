@@ -6,5 +6,5 @@ test('match snapshot component Heading', () => {
 
     const {asFragment} = render(<Heading/>)
 
-    expect(asFragment).toMatchSnapshot()
+    expect(asFragment()).toMatchSnapshot()
 })
