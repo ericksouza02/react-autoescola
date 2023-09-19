@@ -24,7 +24,7 @@ const Root = styled.div`
     li {
         &::before {
             content: "\\2713\\0020";
-            color: #DFA400;
+            color: #F3D500;
         }
     }
 
@@ -32,6 +32,10 @@ const Root = styled.div`
         list-style: none;
         padding-left: 0;
     }
+
+    strong{
+            color: #F3D500;
+        }
 
     ${props => css`
         background: url(${props.image}), rgba(0,0,0,0.4);

@@ -13,7 +13,7 @@ const Heading = styled.h1`
         position: absolute;
         left: 0;
         bottom: -3px;
-        background-color: #DFA400;
+        background-color: #F3D500;
         height: 5px;
         width: 70px;
     }

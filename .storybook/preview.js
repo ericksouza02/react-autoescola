@@ -1,4 +1,5 @@
 import GlobalStyle from '../src/styles/GlobalStyle';
+import ThemeProvider from '../src/styles/ThemeProvider';
 /** @type { import('@storybook/react').Preview } */
 
 const viewports = {
@@ -56,8 +57,10 @@ const preview = {
   decorators: [
     (storyFn) => (
       <>
-        <GlobalStyle/>
-        {storyFn()}
+        <GlobalStyle/>        
+          <ThemeProvider>
+            {storyFn()}
+          </ThemeProvider>
       </>
     ),
   ],
