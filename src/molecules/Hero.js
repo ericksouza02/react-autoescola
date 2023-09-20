@@ -24,7 +24,7 @@ const Root = styled.div`
     li {
         &::before {
             content: "\\2713\\0020";
-            color: #F3D500;
+            color: ${props => props.theme.colors.primary.main};;
         }
     }
 
@@ -34,7 +34,7 @@ const Root = styled.div`
     }
 
     strong{
-            color: #F3D500;
+            color: ${props => props.theme.colors.primary.main};
         }
 
     ${props => css`
@@ -61,7 +61,6 @@ const Container = styled.div`
 `
 
 const Hero = ({image, children}) => (
-
     <Root image={image}>
         <Container>
             {children}

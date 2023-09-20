@@ -1,6 +1,7 @@
 import Hero from "./Hero";
-import CardImage from '../assets/card-image-story.jpg'
 import Heading from "../atoms/Heading";
+import Button from '../atoms/Button'
+import CardImage from '../assets/card-image-story.jpg'
 export default {
     title: 'Components/Organisms/Hero',
     component: Hero
@@ -19,6 +20,6 @@ export const usage = () => (
             <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, reprehenderit!</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, sit.</li>
         </ul>
-        <button>Clique aqui</button>
+        <Button color='primary' variant='outlined'>Matricule-se Agora</Button>
     </Hero>
 )

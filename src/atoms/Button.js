@@ -60,13 +60,31 @@ const Button = styled.button`
 
     &:enabled {
         background-color: ${getDarkColor};
+        border: 4px solid ${getDarkColor};
     }
+
+    
 `;
 
 const ButtonOutlined = styled(Button)`    
     background-color: transparent;
     color: ${getMainColor};
     border: 2px solid;
+
+    &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    &:enabled {
+        background-color: transparent;
+        border: 2px solid;
+    }
+
+    &:enabled:hover {
+        background-color: transparent;
+        border: 4px solid;
+    }
 `;
 
 const ButtonLink = styled(Button)`    
@@ -74,6 +92,16 @@ const ButtonLink = styled(Button)`
     color: ${getMainColor};
     border-color: transparent;
     padding: 0;
+
+    &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    &:enabled {
+        background-color: transparent;
+        border-color: transparent;
+    }
 `;
 
 

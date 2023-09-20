@@ -13,7 +13,7 @@ const Heading = styled.h1`
         position: absolute;
         left: 0;
         bottom: -3px;
-        background-color: #F3D500;
+        background-color: ${props => props.theme.colors.primary.main};
         height: 5px;
         width: 70px;
     }
