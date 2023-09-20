@@ -57,6 +57,10 @@ const Button = styled.button`
         opacity: 0.6;
         cursor: not-allowed;
     }
+
+    &:enabled {
+        background-color: ${getDarkColor};
+    }
 `;
 
 const ButtonOutlined = styled(Button)`    

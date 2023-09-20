@@ -35,9 +35,7 @@ const GlobalStyle = createGlobalStyle`
         font-weight: 700;
         letter-spacing: 2px;
 
-        strong{
-            color: #DFA400;
-        }
+        
     }
 `
 
