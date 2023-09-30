@@ -34,8 +34,6 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1.3;
         font-weight: 700;
         letter-spacing: 2px;
-
-        
     }
 `
 

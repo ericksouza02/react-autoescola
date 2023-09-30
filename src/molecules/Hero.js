@@ -1,9 +1,9 @@
 import React from "react";
 import styled, {css} from "styled-components";
-import {breakAt, BreakPointSizes} from '../styles/BreakPointSize'
-import PropTypes from 'prop-types' 
-
+import {breakAt, BreakPointSizes} from '../styles/BreakPointSize';
+import PropTypes from 'prop-types' ;
 import Heading from "../atoms/Heading";
+
 
 const Root = styled.div`
     body.sb-show-main.sb-main-padded{

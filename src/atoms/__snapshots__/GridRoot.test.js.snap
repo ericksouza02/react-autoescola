@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot with no params 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-beyTiQ lbZvPe"
+  />
+</DocumentFragment>
+`;
+
+exports[`match snapshot with params 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-beyTiQ kJUkUC"
+    lg="4"
+    md="3"
+    sm="2"
+    xl="5"
+  />
+</DocumentFragment>
+`;

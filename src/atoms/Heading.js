@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import {breakAt, BreakPointSizes} from '../styles/BreakPointSize'
+import {breakAt, BreakPointSizes} from '../styles/BreakPointSize';
+import ThemeProvider from "../styles/ThemeProvider";
 
 const Heading = styled.h1`
     position: relative;

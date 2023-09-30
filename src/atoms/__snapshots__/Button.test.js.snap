@@ -3,7 +3,7 @@
 exports[`renders with NaN color 1`] = `
 <DocumentFragment>
   <button
-    class="sc-beyTiQ sc-guDMob eLbYwR flwiGj"
+    class="sc-beyTiQ sc-guDMob jEgoro gxzahC"
     color="primary"
     type="button"
     variant="outlined"
@@ -14,7 +14,7 @@ exports[`renders with NaN color 1`] = `
 exports[`renders with NaN color 2`] = `
 <DocumentFragment>
   <button
-    class="sc-beyTiQ sc-dmyDmy eLbYwR hKJGHq"
+    class="sc-beyTiQ sc-dmyDmy jEgoro gmNeii"
     color="primary"
     type="button"
     variant="link"
@@ -25,7 +25,7 @@ exports[`renders with NaN color 2`] = `
 exports[`renders with NaN color 3`] = `
 <DocumentFragment>
   <button
-    class="sc-beyTiQ sc-guDMob iXEzvn ksjnbt"
+    class="sc-beyTiQ sc-guDMob mZbLo jHsQLY"
     color="danger"
     type="button"
     variant="outlined"
@@ -36,7 +36,7 @@ exports[`renders with NaN color 3`] = `
 exports[`renders with NaN color 4`] = `
 <DocumentFragment>
   <button
-    class="sc-beyTiQ sc-dmyDmy iXEzvn fDCiuk"
+    class="sc-beyTiQ sc-dmyDmy mZbLo laZwXI"
     color="danger"
     type="button"
     variant="link"
@@ -47,7 +47,7 @@ exports[`renders with NaN color 4`] = `
 exports[`renders with NaN color 5`] = `
 <DocumentFragment>
   <button
-    class="sc-beyTiQ sc-guDMob emNkql frdSKi"
+    class="sc-beyTiQ sc-guDMob gMmSPo mGTez"
     color="default"
     type="button"
     variant="outlined"
@@ -58,7 +58,7 @@ exports[`renders with NaN color 5`] = `
 exports[`renders with NaN color 6`] = `
 <DocumentFragment>
   <button
-    class="sc-beyTiQ sc-dmyDmy emNkql nznlj"
+    class="sc-beyTiQ sc-dmyDmy gMmSPo iNlXZn"
     color="default"
     type="button"
     variant="link"

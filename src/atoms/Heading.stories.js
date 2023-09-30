@@ -14,6 +14,7 @@ const Root = styled.div`
 `
 
 export const usage = () => (
+    
     <Root>
         <Heading><h1>{text('Título 1', 'Título 1')} </h1></Heading>
         <Heading><h2>{text('Título 2', 'Título 2')} </h2></Heading>
