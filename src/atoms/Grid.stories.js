@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "./Grid";
 import GridRoot from "./GridRoot";
-import { FaCar, FaKey, FaMapMarkedAlt, FaAccessibleIcon } from 'react-icons/fa'
+import { FaCar, FaKey, FaMapMarkedAlt, FaAccessibleIcon } from 'react-icons/fa';
 import CardIcon from '../assets/carro-esporte.png'
 import { text } from "@storybook/addon-knobs";
 
