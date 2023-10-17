@@ -19,6 +19,9 @@ const light = {
                 dark: '#D80300',
                 light: '#F31F00',
                 text: '#212121'
+            },
+            default: {
+                primary: '#212121'
             }
         }
     }

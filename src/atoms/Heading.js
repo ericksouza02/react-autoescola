@@ -4,6 +4,7 @@ import {breakAt, BreakPointSizes} from '../styles/BreakPointSize';
 import ThemeProvider from "../styles/ThemeProvider";
 
 const Heading = styled.h1`
+    color: #000;
     position: relative;
     margin-bottom: 25px;
     padding-bottom: 25px;
