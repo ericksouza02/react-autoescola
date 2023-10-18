@@ -6,11 +6,13 @@ import Button from '../atoms/Button';
 import GridRoot from "../atoms/GridRoot";
 import Grid from '../atoms/Grid';
 import Section from "../molecules/Section";
+import Accordion from "../atoms/Accordion";
 import Footer from '../organisms/Footer';
 import { FaCar, FaKey, FaMapMarkedAlt, FaAccessibleIcon } from 'react-icons/fa';
 import CardImage from '../assets/car-img.jpg';
 import AboutImage from '../assets/car-img.jpg'
 import ProductGrid from "../organisms/ProductGrid";
+import AccordionGroup from "../atoms/AccordionGroup";
 
 const products = [
     {id: 1, title: "1 Habilitação Carro e Moto", summary: "lorem ipsum dolor sit met consectur adipiscing elit", image: CardImage},
@@ -79,6 +81,25 @@ const Home = () => (
         <Heading>
             <h2>Dúvidas Recorrentes</h2>
         </Heading>
+        <AccordionGroup>
+        <Accordion title='Como eu renovo minha CNH?'>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit obcaecati perspiciatis aut iste ducimus qui. Officia, quos provident. Impedit expedita nesciunt natus eius sapiente fugiat?
+        </p>
+    </Accordion>
+
+    <Accordion title='Como eu faço a mudança de categoria?'>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit obcaecati perspiciatis aut iste ducimus qui. Officia, quos provident. Impedit expedita nesciunt natus eius sapiente fugiat?
+        </p>
+    </Accordion>
+
+    <Accordion title='Fui multado, e agora?'>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit obcaecati perspiciatis aut iste ducimus qui. Officia, quos provident. Impedit expedita nesciunt natus eius sapiente fugiat?
+        </p>
+    </Accordion>
+    </AccordionGroup>
     </Section>
 
 
