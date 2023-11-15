@@ -15,7 +15,11 @@ const Heading = styled.h1`
         position: absolute;
         left: 0;
         bottom: -3px;
+<<<<<<< HEAD
         background-color: ${props => props.theme.colors.primary.main};
+=======
+        background-color: #DFA400;
+>>>>>>> parent of ce04fe5 (ThemeProvider e Button)
         height: 5px;
         width: 70px;
     }

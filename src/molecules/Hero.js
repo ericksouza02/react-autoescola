@@ -25,7 +25,11 @@ const Root = styled.div`
     li {
         &::before {
             content: "\\2713\\0020";
+<<<<<<< HEAD
             color: ${props => props.theme.colors.primary.main};;
+=======
+            color: #DFA400;
+>>>>>>> parent of ce04fe5 (ThemeProvider e Button)
         }
     }
 
@@ -34,10 +38,13 @@ const Root = styled.div`
         padding-left: 0;
     }
 
+<<<<<<< HEAD
     strong{
             color: ${props => props.theme.colors.primary.main};
         }
 
+=======
+>>>>>>> parent of ce04fe5 (ThemeProvider e Button)
     ${props => css`
         background: url(${props.image}), rgba(0, 0, 0, 0.4);
         background-position: center;
