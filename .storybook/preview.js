@@ -1,6 +1,9 @@
 import {select} from "@storybook/addon-knobs"
 import GlobalStyle from '../src/styles/GlobalStyle';
+<<<<<<< HEAD
 import ThemeProvider, {ThemeNames} from '../src/styles/ThemeProvider';
+=======
+>>>>>>> parent of ce04fe5 (ThemeProvider e Button)
 /** @type { import('@storybook/react').Preview } */
 
 const viewports = {
@@ -58,11 +61,16 @@ const preview = {
   decorators: [
     (storyFn) => (
       <>
+<<<<<<< HEAD
           <ThemeProvider 
             theme={select("Theme", ThemeNames, ThemeNames.light)}>
           <GlobalStyle/>        
             {storyFn()}
           </ThemeProvider>
+=======
+        <GlobalStyle/>
+        {storyFn()}
+>>>>>>> parent of ce04fe5 (ThemeProvider e Button)
       </>
     ),
   ],
